@@ -10,6 +10,7 @@ public class ChaserGameClientTarget : TargetRules
 		Type = TargetType.Client;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 
+
 		ExtraModuleNames.AddRange( new string[] { "ChaserGame" } );
 	}
 }
